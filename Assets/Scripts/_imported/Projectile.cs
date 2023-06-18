@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
+
 
 namespace SpaceShooter
 {
@@ -118,6 +118,7 @@ namespace SpaceShooter
 
 }
 
+#if UNITY_EDITOR
 namespace TowerDefence
 {
     [CustomEditor(typeof(SpaceShooter.Projectile))]
@@ -135,3 +136,4 @@ namespace TowerDefence
         }
     }
 }
+#endif

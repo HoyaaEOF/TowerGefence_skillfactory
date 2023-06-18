@@ -1820,14 +1820,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 814799398541159619, guid: 9bfca2b2e81db0e46859fd275fcbff42, type: 3}
-      propertyPath: save.Array.data[2].level
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 814799398541159619, guid: 9bfca2b2e81db0e46859fd275fcbff42, type: 3}
-      propertyPath: save.Array.data[3].level
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 814799398541159622, guid: 9bfca2b2e81db0e46859fd275fcbff42, type: 3}
       propertyPath: m_Name
       value: SingleLevelTestObject

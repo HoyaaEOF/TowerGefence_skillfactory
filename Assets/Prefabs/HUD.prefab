@@ -478,6 +478,7 @@ GameObject:
   - component: {fileID: 586701459}
   - component: {fileID: 586701458}
   - component: {fileID: 586701457}
+  - component: {fileID: 667467360}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -600,6 +601,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 667467360}
+        m_TargetAssemblyTypeName: TowerDefence.SoundHook, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &667467360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586701455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607973a636fa5034fa9fed801a61e430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: 0
 --- !u!1 &594727077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,6 +1589,7 @@ MonoBehaviour:
     m_CoolDown: 15
     m_Duration: 5
     upgradeLevel: 0
+    isCooldown: 0
   TimeButton: {fileID: 949860821}
   TargetCircle: {fileID: 0}
   m_FireAbilityAsset: {fileID: 11400000, guid: 9eb27f8431499b444a7844f3df097885, type: 2}
@@ -2493,6 +2520,7 @@ GameObject:
   - component: {fileID: 4302733721279637986}
   - component: {fileID: 4302733721279637988}
   - component: {fileID: 4302733721279637987}
+  - component: {fileID: 3198239940849301965}
   m_Layer: 5
   m_Name: Lose
   m_TagString: Untagged
@@ -2560,6 +2588,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3198239940849301965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302733721279637985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb07560a7fab8d04082130faa9ab8b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: 5
 --- !u!1 &4302733721770487815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,6 +2746,7 @@ GameObject:
   - component: {fileID: 4302733721860363066}
   - component: {fileID: 4302733721860363068}
   - component: {fileID: 4302733721860363067}
+  - component: {fileID: 9180443778859851295}
   m_Layer: 5
   m_Name: Win
   m_TagString: Untagged
@@ -2772,6 +2814,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9180443778859851295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302733721860363065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb07560a7fab8d04082130faa9ab8b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: 6
 --- !u!1 &4302733721968237013
 GameObject:
   m_ObjectHideFlags: 0
